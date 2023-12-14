@@ -8,9 +8,19 @@ def data_analysis():
     st.image('src/img/landslide.jpg', width=500)
 
     st.write('This is data analysis')
-    st.image('src/img/Landslides on World Map.jpg', width=500)
-    st.image('src/img/Total Number of Landslides by Month.jpg', width=500)
-    st.image('src/img/Total Number of Landslides by Year.jpg', width=500)
+    
+    st.write('This is data analysis')
+    st.image('src/img/Landslides on World Map.png', width=500)
+
+    st.write('This is data analysis')
+    st.image('src/img/Total Number of Landslides by Month.png', width=500)
+    
+    st.write('This is data analysis')
+    st.image('src\img\missing values by feature.png', width=500)
+
+    st.image('src/img/Total Number of Landslides by Year.png', width=500)
+    st.image('src\img\unique values.png', width=500)
+    
     
     number = st.slider('Select a number', min_value=0, max_value=10, value=0)
     landslides_data = preprocess_landslide_data()  # Use the preprocess_landslide_data function from earlier
